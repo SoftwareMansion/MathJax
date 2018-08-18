@@ -525,9 +525,10 @@ var AMsymbols = [
 {input:"{", tag:"mo", output:"{", tex:null, ttype:LEFTBRACKET},
 {input:"}", tag:"mo", output:"}", tex:null, ttype:RIGHTBRACKET},
 {input:"|", tag:"mo", output:"|", tex:null, ttype:LEFTRIGHT},
-{input:":|:", tag:"mo", output:"|", tex:null, ttype:CONST},
-{input:"|:", tag:"mo", output:"|", tex:null, ttype:LEFTBRACKET},
-{input:":|", tag:"mo", output:"|", tex:null, ttype:RIGHTBRACKET},
+// commented new symbols (added in MJ 2.7.3) due to use of `4 |:2` in our app
+// {input:":|:", tag:"mo", output:"|", tex:null, ttype:CONST},
+// {input:"|:", tag:"mo", output:"|", tex:null, ttype:LEFTBRACKET},
+// {input:":|", tag:"mo", output:"|", tex:null, ttype:RIGHTBRACKET},
 //{input:"||", tag:"mo", output:"||", tex:null, ttype:LEFTRIGHT},
 {input:"(:", tag:"mo", output:"\u2329", tex:"langle", ttype:LEFTBRACKET},
 {input:":)", tag:"mo", output:"\u232A", tex:"rangle", ttype:RIGHTBRACKET},
